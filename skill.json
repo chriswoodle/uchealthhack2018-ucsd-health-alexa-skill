@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Save your spot at a UC San Diego Health urgent care clinic or affiliated provider.",
+          "examplePhrases": [
+            "Alexa open UCSD Health",
+            "Alexa tell UCSD Health to save my spot"
+          ],
+          "keywords": [
+            "clinic",
+            "captain",
+            "guide"
+          ],
+          "name": "UCSD Health",
+          "description": "Ask UCSD Health to save your spot at the nearest clinic."
+        }
+      },
+      "category": "HEALTH_AND_FITNESS"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
